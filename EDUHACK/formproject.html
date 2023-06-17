@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Forms IN H.T.M.L"</title>
+    <link rel="stylesheet" href="forms.css"> 
+    <style>
+    @media screen and (max-width:600px) { 
+      body{
+        color: red;
+      }
+      
+    }
+    </style>
+    <div class="image">
+    <a href="https://www.instagram.com/abhirajtiwari42/" target="_main" style="float: right;"><img src="virasat.png"></a>
+    </div>
+  <div class="container">
+</head> 
+<header>
+<h1><b>Create Account</b></h1>
+<hr>
+</header>
+<body>
+<main>
+ <form actions="/action.php">  
+<form>
+<h2><b>User Information</b></h2> 
+<p><b>*Name: </b><input type="text" placeholder="Enter your name"></p> 
+<fieldset>
+    <legend><b>*Gender</b></legend>
+    Male<input type="radio" value="Male" name="Gender"> 
+    Female<input type="radio" value="Female" name="Gender">
+</fieldset> 
+<p><b>*Nationality:</b>  
+<select name="Country">
+<option value="Select">Select</option>
+<option value="India">India</option>
+<option value="U.S.A">U.S.A</option>
+<option value="Dubai">Dubai</option>
+<option value="U.K">U.K</option>
+</select>
+</p>
+<p><b>*State:</b>
+<select name="states">
+<option value="Select">Select</option>
+<option value="M.P">M.P</option>
+<option value="U.P">U.P</option>
+<option value="Rajasthan">Rajasthan</option>
+<option value="Punjab">Punjab</option>
+</select>
+</p> 
+<p><b>*Address:</b>
+<textarea placeholder="Enter your address"></textarea>
+</p> 
+<p><b>*PinCode:</b>
+<input type="text" placeholder="482003">
+</p> 
+<p><b>*Contact Number:</b>
+<input type="text" placeholder="0123456789"></p> 
+<hr>
+<h2>Online Payment Details</h2>
+<p><b>*Credit/Debit card Details</b>
+<select cardtype="Cards">
+<option value="Select">Select</option>
+<option value="Select">Visa</option>
+<option value="Select">Maestro</option>
+<option value="Select">Premium</option>
+</select>
+</p> 
+<P><b>*Card Number:</b>
+<input type="text" placeholder="0123456789">
+</P>
+<p><b>*Enter your C.V.V:</b>
+<input type="text" placeholder="123">
+</p>
+<P><b>*Preferred Delivery Time</b>
+<input type="time" placeholder="hr-min-sec">
+</P>  
+<p><b>*Create Password:</b>
+<input type="text" placeholder="Password@12..">
+</p>
+<b>*I agree to terms and conditions</b><input type="radio" value="terms and conditions" 
+name="Agreement"> 
+<hr> 
+<footer>
+<input type="submit" placeholder="I agree to terms and conditions" >
+</footer> 
+</main>
+</body>
+</form> 
+</div>
+</html>

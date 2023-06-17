@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footer with animation</title>
+    <link rel="stylesheet" href="/css/footer.css">
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Sofia", sans-serif;
+    box-sizing: border-box; 
+    /* font-size: 20px;  */
+}
+
+footer{
+    /* width: 150%; */
+    position: absolute;
+    bottom: 0;
+    background-color: #e4f894 ;
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.row{
+    width:70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+}
+.logo{
+    width: 80%;
+    height: 100%;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    image-orientation:left;
+    border-radius: 25px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 30px;
+    position: relative;
+    color: rgb(27, 153, 153);
+}
+.col p{
+    color: black;
+
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+.copyrigth{
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 5s linear infinite;
+}
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+</style>
+<body>
+        <footer>
+            <div class="row">
+                
+                <div class="col">
+                    <img src="images/virasat.png" class="logo">
+                </div>
+                <div class="col">
+                    <h3>Contact Us <div class="underline"><span></span></div>  </h3>
+                    <p>Email:info@virasat.com</p>
+                    <p>MobileNo: +91 9876543212</p>
+                    <p>Timming: Mon-Sat(11:00Am - 7:00Pm)</p>
+                </div>
+
+                <div class="col">
+                    <h3> Cashback Offers <div class="underline"><span></span></div>  </h3>
+                    <p>- Get up to Rs 500 Cashback on paying via Mobikwik wallet (Offer valid on a minimum transaction of Rs.1499)</p>
+                    <p>- Use coupon code MBK500 to avail this offe</p>
+                </div>
+
+                <div class="col">
+                    <h3>Get Connected <div class="underline"><span></span></div> </h3>
+                    <p>Facebook</p>
+                    <p>Instagram</p>
+                </div>
+            </div>
+            <hr>
+            <p class="copyrigth">Virasat &#169 -All Rigths Reverses</p>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+background: beige
+}
+/* .carousel:hover{
+  background-color: #cfe5db; */
+
+.carousel-cell {
+
+margin-right: 10px;
+border-radius: 5px;
+
+}
+
+
+.carousel-cell img{
+  max-width: 100%;
+}
+.child{
+    height: 490px;
+    width: 410px;
+    margin: 6px; 
+    background-color: orange;
+    border-radius: 4px; 
+  
+  }

@@ -1,0 +1,270 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS FILES ARE LINKED TO OUR PROGRAM INORDER TO GIVE A FONT STYLES,SCROLLING(flickity),FAVICON -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+    <!-- CSS LINKED TO  OUR PROGRAM -->
+    <link rel="stylesheet" href="project.css">
+    <title>Virasat</title>
+</head>
+<body> 
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<!-- <div style="background-color:black;color:white;padding:30px">Scroll Down</div> -->
+<!-- <div style="background-color:lightgrey;padding:30px 30px 2500px"> -->
+<div class="container"> 
+        <!-- grid pattern is used further to display in blocks -->
+    <div class="nested" id="header">
+        <nav id="navbar">
+            <div class="announcement">
+                FREE SHIPPING ON ORDERS ABOVE Rs. 500
+            </div>
+            <!-- using image tag images are added -->
+            <img src="virasat.png" alt="logo_image">
+        </nav> 
+        <nav> 
+            <!-- unordered list is used to display options in a list -->
+            <ul>
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                <!-- list items -->
+                <li><a href="">Shop All</a></li>
+                <li><a href="">Our Bestseller</a></li>
+                <li><a href="">New Arrivals</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Shop By State</button>
+                    <div class="dropdown-content">
+                      
+                        <a href="#">Rajasthan</a>
+                        <a href="#">West Bengal</a> 
+                        <a href="#">Madhya Pradesh</a>
+                        <a href="#">Gujarat</a>
+                        <a href="#">Rest of India</a>
+                    </div>
+                </div>
+               </ul>
+            <ul class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">Shop By Category</button>
+                    <div class="dropdown-content">
+                        <a href="#">Home Decor</a>
+                        <a href="#">Kitchen</a>
+                        <a href="#">Handbags</a>
+                        <a href="#">Jewellery</a>
+                        <a href="#">Home Textiles</a>
+                        <a href="#">many more</a>
+                    </div>
+                </div>
+                <!-- <li><a href="shopbycategory.html" target="_main2">Shop By Category</a></li> -->
+                <li><a href="">Deals & Discount</a></li>
+                <li><a href="index.html" target="_main2">Track Order</a></li>
+                <li><a href="Aboutus.html" target="_main3">About Us</a></li>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fas fa-user-alt"></i>
+            </ul>
+    </nav>
+    </div>
+    <div class="nested" id="item2">
+        <h1>Shop By state</h1> 
+        <div class="carousel" data-flickity='{ "autoPlay": true }'>
+            <div class="carousel-cell">
+                <div class="child" id="child1">
+                <a href="https://www.youtube.com/watch?v=usXEJ39uT2w&t=4s" target="_main1"><img src="rajasthan.jpg"  id="rajasthan"></a>
+                              <p>Rajasthan</p> 
+                         </div>
+            </div>
+            <div class="carousel-cell">
+                <div class="child" id="child2">
+                 <a href="https://www.youtube.com/watch?v=glq0O7ntbxk" target="_main"><img src="Indian-Bengali-woman-is-doing-dhunuchi-dance-3-large.jpg" id="bengal"></a>  
+                    <p> West Bengal</p>
+                    </div>
+            </div>
+            <div class="carousel-cell"> <div class="child" id="child3">
+               <a href="https://www.youtube.com/watch?v=jNhDFSb0O70" target="_main"><img src="mp.jpg" id="mp"></a> 
+                <P>Madhya Pradesh</P>
+                </div></div>
+            <div class="carousel-cell">  <div class="child" id="child4">
+             <a href="https://www.youtube.com/watch?v=ZxALiRqtwpA&t=2s" target="_main"> <img src="Gujarat.jpg" id="Gujarat"></a> 
+                <p>Gujarat</p>
+                </div></div>
+            <div class="carousel-cell">
+                 
+    <div class="child" id="child5">
+      <a href="https://www.youtube.com/watch?v=IgAnj6r1O48" target="_main">  <img src="india.jpg" id="india"></a>
+        <p>Rest Of India</p>
+    </div>
+            </div>
+          </div>
+        </div>
+        <!-- Block 3 -->
+        <div class="nested" id="item2">
+            <h1>Shop By Category</h1> 
+            <div class="carousel" data-flickity='{ "autoPlay": true }'>
+                <div class="carousel-cell">
+                    <div class="children1" id="child1">
+                    <img src="home textile.jpg" id="hometextile"></a>
+                     <p>HomeTextiles <br>     <button id="sellers1">View All</button></p> 
+                
+                             </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="children1" id="child2">
+                    <img src="homedecor.jpg" id="homedecor"></a>  
+                        <p>Homedecor   <br>       <button id="seller1">View All</button></p>
+                        </div>
+                </div>
+                <div class="carousel-cell"> <div class="children1" id="child3">
+                   <img src="jewellery (1).jpg" id="jewellery"></a> 
+                    <P>Jewellery  <br>      <button id="seller1">View All</button></P>
+                    </div></div>
+                <div class="carousel-cell">  <div class="children1" id="child4">
+                 <img src="kitchen.jpeg" id="kitchen"></a> 
+                    <p>Kitchen  <br>      <button id="seller1">View All</button></p>
+                    </div></div>
+                <div class="carousel-cell">
+                     
+        <div class="children1" id="child5">
+            <img src="handbags.jpg" id="handbags">
+            <p>Bags<br>       <button id="seller1">View All</button></p>
+        </div>
+                </div>
+              </div>
+              </div>
+              <!-- Best Sellers -->
+  <div class="nested3" id="item4">
+    <div class="category" id="category1"><h1>Our BestSellers</h1></div>
+    <div class="category" id="category2"><img src="bestseller1.jpg" id="bestseller1">
+        <button id="seller1">Add To Cart</button><h2>Handbags<br>Rs. 1800 </h2></div>
+    <div class="category" id="category3"><img src="bestseller2.jpg" id="bestseller2"><button id="seller1">Add To Cart</button><h2>WallHanging<br>Rs. 350</h2></div>
+    <div class="category" id="category4"><img src="bestsellers3.jpg" id="bestsellers3"><button id="seller1">Add To Cart</button><h2>LacBangles<br>Rs. 200</h2></div>
+    <div class="category" id="category5"><img src="bestseller4.png" id="bestseller4"><button id="seller1">Add To Cart</button><h2>HandPaintedMug<br> Rs. 200<h2></div>
+  </div> 
+<!-- who are we -->
+ <!-- <div class="nested" id="item5">
+    <div class="category" id="category1"><h1 id="information">Who Are We</h1>
+    <p id="description">Since the outbreak of the pandemic people are depending on online
+        purchasing platforms and many are also using this opportunity to
+        develop their own online empire. If you too are considering starting
+        your selling business "Virasat" is a platform. Virasat is an online
+        platform that allows local artisians and people who are selling their
+        products via social channels such as facebook, instagram and more .
+        At virasat we will be aiming at empowering small businesses of
+        different states by listing thier products at our platform.The local
+        artisians also wanted to increase sales by selling thier products
+        online. It essentially connects sellers to customers</p>
+    </div>
+    </div> -->
+     <div class="nested" id="item6">
+        <img src="flowchart (2).png" id="flowchart">
+        </div> 
+        <!-- footer -->
+      <div class="nested3" id="item6">
+        <footer>
+            <div class="footer-content">
+                <!-- <p  style="background-image: url(background\ image2.jpg);"></p> -->
+                <h3>Thank You For Visiting Our Platform</h3>
+                <p>We hope you liked our products.</p>
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+            </div>
+            <!-- <div class="footer-bottom">
+                <p>copyright &copy; <a href="#">Foolish Developer</a>  </p> -->
+                        <div class="footer-menu">
+                          <ul class="f-menu"> 
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="formproject.html" target="_main">Contact</a></li>
+                            <li><a href="">Blog</a></li>
+                          </ul>
+                        </div>
+            </div>
+    
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div> 
+    </div>
+    <!-- Javascripts linked to the program -->
+    <!-- Javascript1 -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- javascript2 -->
+    <script src="https://kit.fontawesome.com/24df8d9eeb.js" crossorigin="anonymous"></script>
+    <!-- //Javascript3 -->
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+</body>
+</html>

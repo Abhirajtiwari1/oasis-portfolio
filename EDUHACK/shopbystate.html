@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title> Shop By State</title>
+    <style>
+ /* external css: flickity.css */
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: beige
+}
+/* .carousel:hover{
+    background-color: #cfe5db; */
+
+.carousel-cell {
+
+  margin-right: 10px;
+  border-radius: 5px;
+
+}
+
+
+.carousel-cell img{
+    max-width: 100%;
+}
+h1{
+    text-align: center;
+    font-family: 'Caveat', Courier, monospace;
+    font-size: 70px; 
+ 
+}
+.child{
+    height: 490px;
+    width: 410px;
+    margin: 6px; 
+    background-color: orange;
+    border-radius: 4px; 
+
+}
+#rajasthan,#bengal,#Gujarat,#india{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 150px;
+}
+#mp{
+    height: 300px;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-family: 'Caveat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    </style>
+</head>
+<body>
+    <div class="nested" id="item2">
+        <h1>Shop By state</h1> 
+        <div class="carousel" data-flickity='{ "autoPlay": true }'>
+            <div class="carousel-cell">
+                <div class="child" id="child1">
+                <a href="https://en.wikipedia.org/wiki/Rajasthan" target="_main"><img src="rajasthan.jpg"  id="rajasthan"></a>
+                              <p>Rajasthan</p> 
+                         </div>
+            </div>
+            <div class="carousel-cell">
+                <div class="child" id="child2">
+                 <a href="https://en.wikipedia.org/wiki/West_Bengal" target="_main"><img src="Indian-Bengali-woman-is-doing-dhunuchi-dance-3-large.jpg" id="bengal"></a>  
+                    <p> West Bengal</p>
+                    </div>
+            </div>
+            <div class="carousel-cell"> <div class="child" id="child3">
+               <a href="https://en.wikipedia.org/wiki/Madhya_Pradesh" target="_main"><img src="mp.jpg" id="mp"></a> 
+                <P>Madhya Pradesh</P>
+                </div></div>
+            <div class="carousel-cell">  <div class="child" id="child4">
+             <a href="https://en.wikipedia.org/wiki/Gujarat"> <img src="Gujarat.jpg" id="Gujarat"></a> 
+                <p>Gujarat</p>
+                </div></div>
+            <div class="carousel-cell">
+                 
+    <div class="child" id="child5">
+        <img src="india.jpg" id="india">
+        <p>Rest Of India</p>
+    </div>
+            </div>
+          </div>
+        </div>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>

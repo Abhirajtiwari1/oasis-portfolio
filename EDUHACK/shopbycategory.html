@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <title>SHOP BY CATEGORY</title>
+    <style>
+        h1{
+    text-align: center;
+    font-family: 'Caveat', Courier, monospace;
+    font-size: 70px; 
+ 
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-family: 'Caveat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+   #category1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: beige;
+  
+}
+ #category2,#category3,#category4,#category5{
+    height: 500px;
+
+ 
+}  
+#category2{
+   width: 110%;
+  
+}
+#category5{
+    width: 50%;
+
+}
+#homedecor{
+    height: 300px;
+    width: 290px;
+    margin: 5px;
+    border: 6px solid black;
+}
+#kitchen{
+    height: 300px;
+    width: 290px;
+    margin: 5px;
+    border: 6px solid black;
+}
+#handbags{
+    height: 300px;
+    width: 290px;
+    margin: 5px;
+    border: 6px solid black;
+}
+#jewellery{
+    height: 300px;
+    width: 290px;
+    margin: 5px;
+    border: 6px solid black;
+}
+#hometextile{
+    height: 300px;
+    width: 290px;
+    margin: 5px;
+    border: 6px solid black;
+   float: center;
+}
+.nested2{
+    display: grid;  
+     grid-gap: 40px; 
+    grid-template-columns: 300px 300px 300px;
+    background-color: beige;
+    border: 4px solid black;
+}
+
+    </style>
+
+</head>
+<body>
+    <div class="nested2" id="item3">
+        <div class="category" id="category1"><h1>Shop By category</h1></div>
+         <div class="category" id="category2"><img src="homedecor.jpg" id="homedecor"><p>Home Decor</p></div>
+         <div class="category" id="category3"><img src="kitchen.jpeg" id="kitchen"><p>Kitchen</p></div>
+         <div class="category" id="category4"><img src="handbags.jpg" id="handbags"><p>Handbags</p></div>
+         <div class="category" id="category5"><img src="jewellery (1).jpg" id="jewellery"><p>Jewellery</p></div>
+         <div class="category" id="category6"><img src="home textile.jpg"id="hometextile"><p>Home Textiles</p></div>
+    </div> 
+</body>
+</html>

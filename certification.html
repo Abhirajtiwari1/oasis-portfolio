@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>Document</title>
+</head>
+<style>
+    /* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+
+}
+
+
+
+</style>
+<body>
+    <h1>Flickity - autoPlay</h1>
+
+<!-- Flickity HTML init -->
+<div class="carousel" data-flickity='{ "autoPlay": true }'>
+  <div class="carousel-cell">
+    <img src="Screenshot (38).png">
+  </div>
+  <div class="carousel-cell">
+    <img src="about me.jpg">
+  </div>
+  <div class="carousel-cell">
+    <img src="about me.jpg">
+  </div>
+  <div class="carousel-cell">
+    <img src="about me.jpg">
+  </div>
+  <div class="carousel-cell">
+    <img src="about me.jpg">
+  </div>
+</div>
+
+</body>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+</html>

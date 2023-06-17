@@ -1,0 +1,160 @@
+.container{
+    display: grid;
+    grid-gap: 13px;
+} 
+#container1{
+    text-align: right;
+}
+ .nested1{
+    border: 2px solid white;
+    background-color: orange;
+    border-radius: 4px;
+    width: 600px;
+    height: 550px;
+    margin: 12px;
+} 
+.nested2{
+    border: 2px solid white;
+    background-color: orange;
+    border-radius: 4px;
+    width: 600px;
+    height: 550px;
+    margin: 12px;
+}
+.nested3{
+    border: 2px solid white;
+    background-color: orange;
+    border-radius: 4px;
+    width: 600px;
+    height: 550px;
+    margin: 12px;
+}
+.nested4{
+    border: 2px solid white;
+    background-color: orange;
+    border-radius: 4px;
+    width: 600px;
+    height: 550px;
+    margin: 12px;
+}
+.nested5{
+    border: 2px solid white;
+    background-color: orange;
+    border-radius: 4px;
+    width: 600px;
+    height: 550px;
+    margin: 12px;
+}
+.nested6{
+    border: 2px solid white;
+    background-color: orange;
+    border-radius: 4px;
+    width: 600px;
+    height: 550px;
+    margin: 12px;
+}
+#item1{
+    height: 1000px;
+}
+#item2{
+    height: 810px; 
+    color: white;
+    text-align: center;
+    font-family: 'Caveat', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    background-color: skyblue;
+
+}
+#item3{
+    height: 520px; 
+    color: white;
+    background-color: skyblue;
+    text-align: center;
+    font-family: 'Caveat', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+} 
+#item4{
+    height: 500px; 
+    color: white;
+    text-align: center;
+    font-family: 'Caveat', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+#sony{
+    margin-top: 24px;
+    border: 2px solid red;
+}
+/* #theme{
+    width: 50px;
+}  */
+#amit{
+   border: 2px solid black;
+   border-radius: 2px;
+   margin: 10px;
+}
+#namita{
+    border: 2px solid black;
+    border-radius: 2px;
+    margin: 5px;
+    height: 259px;
+    width: 250px;
+}
+#anupam{
+    border: 2px solid white;
+    margin: 5px;
+    height: 259px;
+    width: 250px;
+}
+#peyush{
+    border: 2px solid white;
+    margin: 5px;
+  
+}
+
+.children{
+    background-color:black;
+    overflow: hidden; 
+   
+    
+}
+/* .children:hover{
+    background-color: white;
+    color: #000000;
+} */
+.children a{
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: 'Rampart One', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+} 
+p{
+    font-size: 25px;
+    color: white;
+}
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: beige;
+}
+
+.carousel-cell {
+
+  margin-right: 10px;
+
+  border-radius: 5px;
+
+}
+.carousel-cell img{
+    max-width: 100%;
+}
+
