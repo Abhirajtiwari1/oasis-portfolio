@@ -48,6 +48,6 @@ Ensure you have the following installed on your local machine:
 
 ### Demonstration To Project:
     ```sh
-    https://www.linkedin.com/posts/abhiraj-tiwari-233699252_connections-css-javascript-activity-7075691831564410880-A8sc?utm_source=share&utm_medium=member_desktop
+       https://www.linkedin.com/posts/abhiraj-tiwari-233699252_connections-css-javascript-activity-7075691831564410880-A8sc?utm_source=share&utm_medium=member_desktop
     ```
     
