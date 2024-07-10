@@ -41,14 +41,12 @@ Ensure you have the following installed on your local machine:
 2. **Navigate to the project directory**
    ```bash
 cd portfolio
-```
+
 3. **Index File**
    ```bash
 open portfolio.html
-```
 
 ### Demonstration To Project:
-use the link 
     ```bash
     https://www.linkedin.com/posts/abhiraj-tiwari-233699252_connections-css-javascript-activity-7075691831564410880-A8sc?utm_source=share&utm_medium=member_desktop
-    ```
+    
