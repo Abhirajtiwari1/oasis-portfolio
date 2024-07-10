@@ -40,11 +40,11 @@ Ensure you have the following installed on your local machine:
 
 2. **Navigate to the project directory**
    ```bash
-cd portfolio
+    cd portfolio
 
 3. **Index File**
    ```bash
-open portfolio.html
+     open portfolio.html
 
 ### Demonstration To Project:
     ```bash
