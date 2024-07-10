@@ -1,12 +1,10 @@
-# Portfolio
+# My Portfolio
 
 ![Cover Image](./portfolio.png)
 
 ## Description
 
 A personal portfolio website to showcase projects, skills, and experiences. This repository contains the code for a responsive and interactive portfolio built using HTML, CSS, and JavaScript. The portfolio is designed to provide a comprehensive overview of professional accomplishments, projects, and skills.
-
-With the arrival of Shark Tank in India, the number of entrepreneurs pitching their ideas on the show has increased significantly. Inspired by this trend, I created a simple landing page using HTML and CSS.
 
 ## Features
 
