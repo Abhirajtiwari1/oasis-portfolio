@@ -47,7 +47,7 @@ Ensure you have the following installed on your local machine:
      open portfolio.html
 
 ### Demonstration To Project:
-    ```sh
+    ```bash
        https://www.linkedin.com/posts/abhiraj-tiwari-233699252_connections-css-javascript-activity-7075691831564410880-A8sc?utm_source=share&utm_medium=member_desktop
-    ```
+   
     
